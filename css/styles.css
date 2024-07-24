@@ -576,7 +576,7 @@ color: #ffffff;
 
 .blok-three-form{
     display: flex;
-    gap 24px;
+    gap: 24px;
 }
 .blok-three-label{ 
 
