@@ -179,13 +179,14 @@ position: relative;
         color: #fff;
         background: #4d5ae5;
     display: block;
-    width: 169px;
+    min-width: 169px;
     border-radius: 4px;
     height: 56px;
     margin: 0 auto;
     border: none;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+
     .hero-btn:hover,
     .hero-btn:focus
     {
@@ -561,7 +562,7 @@ background-color: #31d0aa;
     fill:#f4f4fd;
 }
 .footer-blok-three{
- margin-left: 80px;
+margin-left: 80px;
 }
 
 .blok-three-text{
@@ -592,7 +593,7 @@ color: #ffffff;
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: #ffffff; 
+    
 
 }
 .btn-footer{
@@ -612,8 +613,13 @@ color: #ffffff;
     border: none;
     border-radius: 4px; 
 }
+.btn-footer:hover,
+.btn-footer:focus{
+    background-color: #31d0aa;
+}
 .btn-svg{ 
     margin-left: 16px;
+    fill: #FFFFFF;
 }
       /* modal */ 
 
@@ -796,7 +802,7 @@ border-radius: 2px;
     align-items: center;
     justify-content: center;
     fill: transparent;
-    gap: 8px;
+    margin-right: 8px;
 }
 .icon-span{
 
